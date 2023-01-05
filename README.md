@@ -20,4 +20,10 @@ quicklinks = having a url link that stores the build within the link.  say it re
 
 Storing data.
 items will have slot, type (armor: light/med/heavy weapons: 14 different types), stat (type: str, dex, etc), perks.
-perks will need to have their unique ID, name, pool, unique tag for quick links(a-z,A-Z,0-9.  Two char should be enough).  List of lists?  Put each pool within it's own list? [ID, name, unique tag]
+perks will need to have their unique ID, name, pool, unique tag for quick links(a-z,A-Z,0-9.  Two char should be enough).  List of lists?  Put each pool within it's own list? [ID, name, unique tag]. Might need to first define each slot and then add what pools it can accept and which perks out of those pools it can take.
+
+Need to define what perk pools each slot can accept.
+Some pools have have perks that are certain item specific.  "Proc" pool is a hot mess of these.  Unique perks to amulet, ring, all weapons, melee weapons, ranged weapons, helmet, shield, chest, gloves, pants.
+
+DmgCon = [[1, "Vicious", "+12% critical damage.", "aa"], [2, "enchanted", "light and heavy attacks deal 9.8% more damage.", "ab"], [3, "rogue", "+19% more backstab damage.", "ac"] ... ]
+
