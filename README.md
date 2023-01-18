@@ -30,44 +30,83 @@ pools:
 2hAxe
 
 2hHammer
+
 Accuracy (not as important) bow/musket/hatchet/blunder
+
 ArmorHealth armor
+
 Blocking 
+
 Blunderbuss
+
 Bow
+
 BuffDur amulet
+
 CDR
+
 Consume earring
+
 ConsumeAdd
+
 ConsumeCDR
+
 CritDef
+
 CritHeadshot
+
 Critical
+
 DebuffDur
+
 Defense amulet/shield
+
 DmgAbsorb armor/shield
+
 DmgCategory weapon
+
 DmgCon melee,ranged,ring
+
 DmgType ring
+
 Elemental weapons/armor (chain/shirking/conditioning)
+
 FireStaff
+
 GreatSword
+
 Hatchet
+
 Healing amulet/ring
+
 Health amulet
+
 IceGauntlet
+
 LifeStaff
+
 Musket
+
 OnKill
+
 Proc 
+
 Rapier
+
 Regen earring
+
 Shield
+
 Skill
+
 Spear
+
 Stam ring
+
 Sword
+
 Threat
+
 VoidGauntlet
 
 
