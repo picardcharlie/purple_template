@@ -23,7 +23,51 @@ items will have slot, type (armor: light/med/heavy weapons: 14 different types),
 perks will need to have their unique ID, name, pool, unique tag for quick links(a-z,A-Z,0-9.  Two char should be enough).  List of lists?  Put each pool within it's own list? [ID, name, unique tag]. Might need to first define each slot and then add what pools it can accept and which perks out of those pools it can take.
 
 Need to define what perk pools each slot can accept.
-Some pools have have perks that are certain item specific.  "Proc" pool is a hot mess of these.  Unique perks to amulet, ring, all weapons, melee weapons, ranged weapons, helmet, shield, chest, gloves, pants.  Give each item slot a value 1-11 and include a list of available slots?
+Some pools have have perks that are certain item specific.  "Proc" pool is a hot mess of these.  Unique perks to amulet, ring, all weapons, melee weapons, ranged weapons, helmet, shield, chest, gloves, pants.  Give each item slot a value 1-11 and include a list of available slots?  Skill perks also have different values for armor/weapons.
+
+pools:
+2hAxe
+2hHammer
+Accuracy (not as important) bow/musket/hatchet/blunder
+ArmorHealth armor
+Blocking 
+Blunderbuss
+Bow
+BuffDur amulet
+CDR
+Consume earring
+ConsumeAdd
+ConsumeCDR
+CritDef
+CritHeadshot
+Critical
+DebuffDur
+Defense amulet/shield
+DmgAbsorb armor/shield
+DmgCategory weapon
+DmgCon melee,ranged,ring
+DmgType ring
+Elemental weapons/armor (chain/shirking/conditioning)
+FireStaff
+GreatSword
+Hatchet
+Healing amulet/ring
+Health amulet
+IceGauntlet
+LifeStaff
+Musket
+OnKill
+Proc 
+Rapier
+Regen earring
+Shield
+Skill
+Spear
+Stam ring
+Sword
+Threat
+VoidGauntlet
+
 
 idea for laying out perks (unique value, name, discription, unique tag):
 DmgCon = [[1, "Vicious", "+12% critical damage.", "aa"], [2, "enchanted", "light and heavy attacks deal 9.8% more damage.", "ab"], [3, "rogue", "+19% more backstab damage.", "ac"] ... ]
