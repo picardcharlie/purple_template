@@ -26,7 +26,9 @@ Need to define what perk pools each slot can accept.
 Some pools have have perks that are certain item specific.  "Proc" pool is a hot mess of these.  Unique perks to amulet, ring, all weapons, melee weapons, ranged weapons, helmet, shield, chest, gloves, pants.  Give each item slot a value 1-11 and include a list of available slots?  Skill perks also have different values for armor/weapons.
 
 pools:
+
 2hAxe
+
 2hHammer
 Accuracy (not as important) bow/musket/hatchet/blunder
 ArmorHealth armor
