@@ -18,6 +18,14 @@ What I would like to create:
 
 quicklinks = having a url link that stores the build within the link.  say it reads armor slots top to bottom first, then weapons top to bottom.  Each item has unique values to show which it is.  Say each slot gets 8 characters, first one is type, then stat type, perk1, perk2, perk3.  
 
+Needed pages to create:
+navbar: main, login, settings, characters, guides
+index
+register
+guides
+settings
+
+
 Storing data.
 items will have slot, type (armor: light/med/heavy weapons: 14 different types), stat (type: str, dex, etc), perks.
 perks will need to have their unique ID, name, pool, unique tag for quick links(a-z,A-Z,0-9.  Two char should be enough).  List of lists?  Put each pool within it's own list? [ID, name, unique tag]. Might need to first define each slot and then add what pools it can accept and which perks out of those pools it can take.
