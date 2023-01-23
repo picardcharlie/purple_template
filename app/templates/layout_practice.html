@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>practice CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+
+body {
+	background-color: darkgrey;
+}
+.character_sheet {
+	width: 40%;
+}
+
+.column {
+	float: left;
+}
+
+.column.side {
+	width: 90px;
+}
+
+.column.middle {
+	width: 370px;
+	max-width: 100%;
+	height: auto;
+}
+
+.item_slot {
+	width: 75px;
+	height: 75px;
+	border-style: solid;
+	border-color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.background_picture {
+	max-width: 100%;
+	height: auto;
+}
+
+</style>
+<script src=""></script>
+<body>
+<div class="character_sheet">
+	<div class="column side">
+		<ul>
+			<li class="item_slot helmet">
+				<h4>helmet</h4>
+			</li>
+			<li class="item_slot">
+				<h3>chest</h3>
+			</li>
+			<li class="item_slot gloves">
+				<img src="test75.png">
+			</li>
+			<li class="item_slot pants">
+				pants
+			</li>
+			<li class="item_slot boots">
+				boots
+			</li>
+			<li class="item_slot shield">
+				shield
+			</li>
+			<li class="item_slot amulet">
+				amulet
+			</li>
+			<li class="item_slot ring">
+				ring
+			</li>
+			<li class="item_slot earring">
+				earring
+			</li>
+		</ul>
+	</div>
+	<div class="column middle">
+		<ul>
+			<li>
+				<img style="max-width: 100%; height: auto" src="background.png">
+			</li>
+		</ul>
+	</div>
+	<div class="column side">
+		<ul>
+			<li class="item_slot weapon1">
+				weapon one
+			</li>
+			<li class="item_slot weapon2">
+				weapon two
+			</li>
+			<li class="item_slot rune">
+				rune
+			</li>
+			<li class="item_slot consumable1">
+				consume1
+			</li>
+			<li class="item_slot consumable2">
+				consume2
+			</li>
+			<li class="item_slot consumable3">
+				consume3
+			</li>
+			<li class="item_slot consumable4">
+				consume4
+			</li>
+			<li class="item_slot azothstaff">
+				azoth
+			</li>
+			<li class="item_slot music">
+				music
+			</li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>
