@@ -1,0 +1,38 @@
+body {
+	background-color: darkgrey;
+}
+.character_sheet {
+	width: 40%;
+}
+
+.column {
+	float: left;
+}
+
+.column.side {
+	width: 90px;
+}
+
+.column.middle {
+	width: 370px;
+	max-width: 100%;
+	height: auto;
+}
+
+.item_slot {
+	width: 75px;
+	height: 75px;
+	border-style: solid;
+	border-color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.background_picture {
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,21 @@
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+{% endblock head %}
+
+{% block scripts %}
+{% endblock scripts %}
+
+{% block title %}
+{% endblock title %}
+
+{% block navbar %}
+    <div class="navigation bar">
+    {% if current_user.is_authenticated %}
+        <a href="{{ url_for("auth.login" }}">log in</a>
+    {% else %}
+        <a href="{{ url_for("auth.register" }}">register</a>
+    {% endif %}
+    </div>
+
+{% endblock navbar %}
